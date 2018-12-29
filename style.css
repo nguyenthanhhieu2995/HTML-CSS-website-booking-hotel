@@ -21,7 +21,7 @@ h2 {
 	padding: 0 15px;
 }
 .header {
-	height: 100vh;
+	height: 330px;
     background: url(/img/bg.jpg) center center no-repeat;
     background-size: cover;
 }
@@ -107,7 +107,6 @@ h2 {
 .hp-text {
 	margin: 0 auto;
 	text-align: center;
-	width: 810px;
 }
 .hp-text h2 {
 	margin-bottom: 35px;
@@ -150,6 +149,23 @@ p {
 	color: #222;
 	font-weight:600;
 }
-.booking {
-	padding: 110px 0 110px;
+.booking-fluid {
+	padding: 50px 0;
 }
+.booking-fluid .hp-text h2 {
+	font-weight: 500;
+	margin-bottom: 35px;
+}
+.booking-fluid .hp-text p {
+	line-height: 35px;
+}
+.booking-fluid .booking {
+	text-align: center;
+}
+.booking .booking-image {
+	position: relative;
+    display: inline-block;
+    box-shadow: 0 10px 40px 0 rgba(86,86,86,.2);
+    border-radius: 6px;
+}
+
