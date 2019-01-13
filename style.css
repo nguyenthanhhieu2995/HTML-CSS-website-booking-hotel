@@ -21,7 +21,6 @@ h2 {
 	padding: 0 15px;
 }
 .header {
-	height: 330px;
     background: url(img/bg.jpg) center center no-repeat;
     background-size: cover;
 }
@@ -75,7 +74,7 @@ h2 {
     border: 2px solid #ffa000;
 }
 .btn-wrapper {
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 .btn, .btn span, .btn-wrapper {
